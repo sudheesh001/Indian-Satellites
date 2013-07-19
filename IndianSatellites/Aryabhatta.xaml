@@ -1,0 +1,156 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="IndianSatellites.Aryabhatta"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait" Orientation="Portrait"
+    mc:Ignorable="d"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot">
+        <Grid.Background>
+            <ImageBrush Stretch="Fill" ImageSource="/Assets/background.jpg"/>
+        </Grid.Background>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <phone:Pivot Title="" Margin="0,0,0,55" Grid.Row="1">
+            <!--Pivot item one-->
+            <phone:PivotItem Header="Aryabhatta">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="603" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,10,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/Arya.jpg"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,363,0,0" TextWrapping="Wrap" Text="This is India's First Satellite. It was named after a famous astronomer and mathematician. It was launched by the Soviet Union on 19 April 1975 from Kapustin Yar using a Cosmos-3M Machine." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="Bhaskara-I">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="603" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,10,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/Bhas1.jpg"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,363,0,0" TextWrapping="Wrap" Text="The Bhaskara-I was built by the Indian Space Research Organisation that formed India's first low orbit Earth Observation Satellite. It collected data on telemetry, oceanography and hydrology.It was launched on 7 June 1979." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="Rohini">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="603" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,10,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/Roh1.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,363,0,0" TextWrapping="Wrap" Text="Rohini name given to a series of satellites launched by ISRO. It consisted of four satellites, all of which were launched by ISRO Satellite Launch Vehicle (SLV). The series were mostly experimental satellites." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="INSAT">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="603" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,10,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/INSAT1.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,363,0,0" TextWrapping="Wrap" Text="INSAT or the Indian National Satellite System is a series of multipurpose Geo-stationary satellites launched by ISRO to satisfy the telecommunications, broadcasting, meteorology, and search and rescue operations." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="IRS-1A">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="603" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,0,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/Irs1.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,363,0,0" TextWrapping="Wrap" Text="IRS-1A was first remote sensing mission undertaken by ISRO. It was half-operational/experimental mission to develop indigenous expertise in satellite imagery.IRS-1A carried two 'Linear Imaging Self-Scanning System' cameras." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="ArabSat 1C">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,0,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/Arabsat.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,363,0,0" TextWrapping="Wrap" Text="INSAT-2DT, previously Arabsat-1C and also known as INSAT-2R, was a Saudi Arabian and subsequently Indian communications satellite which was operated initially by Arabsat, and then by ISRO. " VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="Oceansat 1">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,0,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/oceansat1.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,348,0,0" TextWrapping="Wrap" Text="OceanSat-1 or IRS-P4 is the first Indian satellite primarily built for Ocean applications. It is a part of the Indian Remote Sensing satellite series. The satellite carried Ocean Colour Monitor (OCM) and a Multi - frequency Scanning Microwave Radiometer (MSMR) for oceanographic studies." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="G SAT">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,0,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/gsat1.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,373,0,0" TextWrapping="Wrap" Text="GSAT-1 was an experimental satellite launched aboard the GSLV-D1 (Technology demonstrator) for performance monitoring, tracking, range safety/ flight safety and preliminary Orbit Determination (POD). " VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="EDUSAT">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,0,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/Edu.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,373,0,0" TextWrapping="Wrap" Text="EDUSAT or GSAT-3 is a communications satellite which was launched on 20 September 2004 by the Indian Space Research Organisation. EDUSAT is the first Indian satellite built exclusively to serve the educational sector." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="HAMSAT">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,0,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/hamsat.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,373,0,0" TextWrapping="Wrap" Text="HAMSAT also known as HAMSAT INDIA and VU2SAT is a microsatellite weighing 42.5 kilograms (93.7 lb), providing amateur radio satellite communications services for Indian and international amateur radio operators." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="Cartosat 1">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="348" Margin="10,0,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/cartosat.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,373,0,0" TextWrapping="Wrap" Text="Cartosat-1 or IRS-P5 is a stereoscopic Earth observation satellite in a sun-synchronous orbit, and the first one of the Cartosat series of satellites. The satellite was built, launched and maintained by ISRO. It was used for mapping." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="Kalpana 1">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="368" Margin="10,-20,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/Kalpana1.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,348,0,0" TextWrapping="Wrap" Text="Kalpana-1 is the first dedicated meteorological satellite launched by Indian Space Research Organisation using Polar Satellite Launch Vehicle on 2002-09-12. This was the first satellite launched by the PSLV into the Geostationary orbit. It was originally called MetSat-1" VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="RISAT">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="368" Margin="10,-20,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/MeghaT.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,348,0,0" TextWrapping="Wrap" Text="Radar Imaging Satellite 1, or RISAT-1, is an Indian remote sensing satellite which was built and is operated by ISRO. The second RISAT satellite to be launched, uses C-band 5.35 GHz Synthetic Aperture Radar for earth observation irrespective of the light and weather conditions." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="MeghaTropiques">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="368" Margin="10,-20,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/MeghaT.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,348,0,0" TextWrapping="Wrap" Text="Megha-Tropiques is a satellite mission to study the water cycle in the tropical atmosphere in the context of climate change.A collaborative effort between ISRO and CNES, Megha-Tropiques was successfully deployed into orbit by a PSLV rocket in October 2011." VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+            <phone:PivotItem Header="SARAL">
+                <Grid HorizontalAlignment="Left" Height="603" VerticalAlignment="Top" Width="456">
+                    <TextBlock HorizontalAlignment="Left" TextWrapping="Wrap" VerticalAlignment="Top" Height="593" Width="456" FontSize="25" FontFamily="Segoe WP Light">
+                    </TextBlock>
+                    <Image HorizontalAlignment="Left" Height="368" Margin="10,-20,0,0" VerticalAlignment="Top" Width="436" Source="/Assets/Saral.jpg" Stretch="Fill"/>
+                    <TextBlock HorizontalAlignment="Left" Margin="10,348,0,0" TextWrapping="Wrap" Text="SARAL or Satellite with ARgos and ALtiKa is a cooperative altimetry technology mission of Indian Space Research Organisation (ISRO) and CNES (Space Agency of France). The ISRO built satellite with payloads modules like Altimeter, Laser Retrireflector Array. Launched- 25 Feb 2013" VerticalAlignment="Top" Height="230" Width="436"/>
+                </Grid>
+            </phone:PivotItem>
+        </phone:Pivot>
+        <!--TitlePanel contains the name of the application and page title-->
+        <StackPanel Grid.Row="0" Margin="12,17,0,28">
+            <TextBlock Text="Satellites of India" Style="{StaticResource PhoneTextNormalStyle}" Margin="12,0"/>
+        </StackPanel>
+
+        <!--ContentPanel - place additional content here-->
+    </Grid>
+
+</phone:PhoneApplicationPage>
